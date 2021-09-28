@@ -1,0 +1,359 @@
+*{
+   margin: 0;
+   padding: 0;
+}
+header, .banner_section{
+   background-color: #FFC149;
+}
+.banner_text p{
+   padding: 10px 10px;
+   font-size: 22px;
+   display: inline-block;
+   border: 2px dashed black;
+   font-family: 'Bebas Neue', cursive;
+}
+.navbar-light .navbar-toggler {
+   color: #fff;
+   border: 2px solid #fff;
+   margin-top: 15px;
+}
+.banner_text h1{
+   font-size: 150px;
+   font-weight: 700;
+   text-shadow: 2px 2px #fff;
+   letter-spacing: 2px;
+   font-family: 'Bebas Neue', cursive;
+}
+.banner_text h3{
+   font-size: 80px;
+   font-weight: 700;
+   text-shadow: 2px 2px #fff;
+   font-family: 'Bebas Neue', cursive;
+   line-height: 27px;
+}
+
+.banner_img{
+   position: relative;
+}
+.banner_div{
+   width: 20%;
+   padding: 10px;
+   text-align: center;
+   position: absolute;
+   border-radius: 50%;
+   top: 75%;
+   left: 10%;
+}
+/* .hg {
+   display: flex;
+   align-items: center;
+} */
+.hg {
+   display: flex;
+   align-items: center;
+}
+.img_1 {
+   position: relative;
+}
+.img_content h2{
+   color: #fff;
+   text-transform: uppercase;
+}
+.img_content h1{
+   color: #fff;
+   text-transform: uppercase;
+}
+.img_content {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+}
+
+.img_2 {
+   position: relative;
+}
+.img_2 h2, .img_3 h2{
+   text-transform: uppercase;
+   font-size: 18px;
+}
+.img_2 h1, .img_3 h1{
+   font-size: 30px;
+   text-transform: uppercase;
+}
+.img_content1 {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   color: #fff;
+}
+.img_3 {
+   position: relative;
+   margin-top: 35px;
+}
+
+.img_content2 {
+   position: absolute;
+   top: 5%;
+   left: 5%;
+   color: #fff;
+}
+
+
+.burger_section h1{
+   font-size: 55px;
+   color: #42200B;
+   font-weight: 700;
+   text-transform: uppercase;
+   margin-bottom: 20px;
+}
+
+.burger_section h5{
+   background-color: #FFC045;
+   display: inline-block;
+   text-transform: uppercase;
+   font-size: 20px;
+   padding: 8px 30px;
+}
+.burger_section p{
+
+}
+
+
+
+.burger_img img{
+   width: 100%;
+   margin-bottom: 25px;
+}
+.burger_text h3{
+   font-size: 30px;
+   color: #42200B;
+   text-transform: uppercase;
+   font-weight: 600;
+   margin-bottom: 10px;
+}
+.burger_text p{
+   font-size: 16px;
+   color: #42200B;
+   margin-bottom: 30px;
+}
+.burger_text a{
+   text-decoration: none;
+   background-color: #BF2222;
+   text-transform: uppercase;
+   color: #fff;
+   padding: 10px 30px;
+   font-weight: 600;
+}
+
+
+
+.slide{
+   margin-top: 70px;
+   margin-bottom: 30px;
+}
+.slide_shadow{
+   box-shadow: 8px 8px 20px 20px #ecebeb;
+   padding: 15px;
+   border-radius: 5px;
+}
+.slide h5{
+   margin-top: 50px;
+   letter-spacing: 1px;
+   font-family: 'Bebas Neue', cursive;
+   color: #42200B;
+}
+.slide h1{
+   font-weight: 400;
+   font-family: 'Alfa Slab One', cursive;
+   color: #42200B;
+}
+.slide p{
+   font-family: 'Montserrat', sans-serif;  
+}
+.owl-dots{
+   text-align: center;
+   margin-top: 15px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   position: absolute;
+   top: 70%;
+   left: 15%;
+   transform: translateX(-50%);
+}
+.owl-dots .owl-dot span{
+   width: 7px;
+   height: 7px;
+   background: transparent;
+   display: block;
+   margin: 0px 10px;
+   border-radius: 10px;
+   border: 1px solid #F69165;
+}
+.owl-dots .active span{
+   width: 10px;
+   height: 10px;
+   display: block;
+   margin: 0px 10px;
+   border-radius: 10px;
+   background-color: #F69165;
+}
+.table{
+   background-image: url(../img/contact-bg.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+   min-height: 110vh;
+}
+.table h4{
+margin: 0;
+text-transform: uppercase;
+font-size: 28px;
+letter-spacing: 2px;
+margin-top: 60px;
+font-family: 'Bebas Neue', cursive;
+color: #3d2514;
+}
+.table h1{ 
+margin: 0;    
+text-transform: uppercase; 
+font-size: 48px;
+letter-spacing: 2px;
+font-family: 'Alfa Slab One', cursive;
+color: #3d2514;
+}
+.table form{
+   padding: 50px;
+}
+.table form input{
+   text-transform: uppercase;
+   border: none;
+   border: 2px solid #bebebe;
+   padding: 13px;
+   font-size: 17px;
+   margin-bottom: 15px;
+   outline: none;
+   font-family: 'Bebas Neue', cursive;
+}
+.table form input[type="submit"]{
+   background-color: #bf2222;
+   color: #fff;
+   font-family: 'Alfa Slab One', cursive;
+   border-color: #bf2222;
+   
+}
+.table input:focus{
+   box-shadow: none;
+}
+
+
+.footer_bg{
+   background-image: url(../img/footer.png);
+   background-position: center;
+   background-repeat: no-repeat;
+   background-size: cover;
+}
+.right_side{
+}
+.right_side ul{
+
+list-style: none;
+
+margin-top: 211px;
+
+margin-bottom: 150px;
+}
+.right_side ul li{
+
+color: #fff;
+
+letter-spacing: 1px;
+}
+.right_side ul li i{
+
+margin-right: 10px;
+
+font-size: 30px;
+}
+.right_side h4 {
+   display: inline-block;
+}
+footer p {
+   color: #fff;
+   font-size: 18px;
+   letter-spacing: 1px;
+   margin-top: 40px;
+   margin-bottom: 150px;
+}
+.footer_left {
+   margin-top: 48px;
+}
+.Content_control {
+   display: flex;
+   justify-content: space-between;
+}
+.footer_last h2{
+
+   font-size: 20px;
+   
+   color: #fff;
+   
+   letter-spacing: 1px;
+   }
+   .social_icon ul{
+       
+   list-style: none;
+       
+   display: flex;
+       
+   justify-content: space-between;
+   flex-wrap: wrap;
+   }
+   .social_icon{
+   
+   }
+   .social_icon ul li{
+   
+   text-decoration: none;
+   }
+   .social_icon ul li a{
+   
+   text-decoration: none;
+   }
+   .social_icon ul li a i{
+   
+   color: #070707;
+   
+   font-size: 25px;
+   
+   background: #fff;
+   
+   width: 50px;
+   
+   height: 50px;
+   
+   border-radius: 50%;
+   
+   line-height: 50%;
+   
+   display: flex;
+   
+   justify-content: center;
+   
+   align-items: center;
+   
+   margin-right: 10px;
+   transition: .2s all ease-in-out;
+   }
+   .social_icon ul li a i:hover{
+       background-color: #FFC544;
+       color: #000;
+   }
+   .footer_end{
+       
+   display: flex;
+       
+   justify-content: space-between;
+       
+   align-items: center;
+   }
